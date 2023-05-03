@@ -1,24 +1,18 @@
 # gr-coding-challenge
 
-Instructions to build and run the solution:
+## Description
+This project is designed to gather various statistics related to contributors on a single GitHub repository, such as commits, additions, deletions, pull requests, issues created and closed, and review comments. It also provides an option to plot the data using matplotlib and mplcursors, and outputs the data to a CSV file.
 
-Code File name: getstats.py
-    code file has variables owner and repo, for now I have assigned 'calcom' and 'cal.com' respectively. can change these values to desired input to generate the stats of teams against a single repository.
+## Installation
+1. Clone the repository to your local machine.
+2. Install the required dependencies: requests, matplotlib, mplcursors, and csv.
+3. Update the owner and repo variables in getstats.py to match the desired repository.
+4. Run getstats.py using the command python3 getstats.py.
 
-output: output.csv
+## Usage
+After running getstats.py, a CSV file named output.csv will be generated in the same directory. This file contains all the statistics gathered for each contributor.
 
-
-command to run code file: python3 getstats.py  
-Dependencies: 
-    Python3 [Language Used]
-    requests [to process API requests]
-    mplcursors [incase of plotting] {optional}
-    matplotlib.pyplot as plt [incase of plotting] {optional}
-    csv [to write into csv files]
-
-Can use python to generate plots using 'output.csv' file.
-
-Might have used Javascript to develop an interactive dashboard but due to time constraint, Used Tableau for charts to develop a report indicating productivity {'gresearch.twb' in the repo}.
+If desired, matplotlib and mplcursors can be used to create interactive plots of the data.
 
 
 Remaining details in explanation.pdf
