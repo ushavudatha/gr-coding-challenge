@@ -14,5 +14,6 @@ After running **getstats.py**, a CSV file named **output.csv** will be generated
 
 If desired, matplotlib and mplcursors can be used to create interactive plots of the data.
 
+I Used Tableau to generate Charts to analyze the productivity of contributors **gresearch.twb**
 
-Remaining details in explanation.pdf
+Remaining details in **explanation.pdf**
