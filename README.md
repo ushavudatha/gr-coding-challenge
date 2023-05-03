@@ -1,4 +1,5 @@
 # gr-coding-challenge
+
 Instructions to build and run the solution:
 
 Code File name: getstats.py
@@ -7,7 +8,7 @@ Code File name: getstats.py
 output: output.csv
 
 
-command to run code file: python3 getstats.py
+command to run code file: python3 getstats.py  
 Dependencies: 
     Python3 [Language Used]
     requests [to process API requests]
