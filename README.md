@@ -17,3 +17,6 @@ If desired, matplotlib and mplcursors can be used to create interactive plots of
 I Used Tableau to generate Charts to analyze the productivity of contributors **gresearch.twb**
 
 Remaining details in **explanation.pdf**
+
+## Credits
+This project was created by **Usha Vudatha** as a solution to a **G-Research** interview question.
