@@ -9,7 +9,7 @@ owner = "calcom"
 repo = "cal.com"
 params = {"per_page": 100}
 username = "uvudatha"
-api_token = "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"
+api_token = "#access_token"
 auth = (username, api_token)
 # make GET request to the API
 response = requests.get(api_endpoint.format(owner=owner, repo=repo), params=params,auth=auth)
